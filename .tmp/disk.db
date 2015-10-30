@@ -1,0 +1,92 @@
+{
+  "data": {
+    "contact": [],
+    "user": [
+      {
+        "forename": "a",
+        "surname": "a",
+        "user": "a",
+        "password": "$2a$10$Au1ls0muNSpIYNo6XGNvSes3CY4TVcFd/fHZPnR8inDIloJfB4.zC",
+        "role": "riporter",
+        "createdAt": "2015-10-30T19:18:51.726Z",
+        "updatedAt": "2015-10-30T19:18:51.726Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "contact": {
+      "name": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "provider": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "user": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "contact": {},
+    "user": {
+      "id": 1
+    }
+  }
+}
