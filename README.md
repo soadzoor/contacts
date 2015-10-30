@@ -42,7 +42,9 @@ Létrehoztam két különbőző felhasználót, és hozzáadtam néhány kontakt
 * szerkesztettem őket
 * rájuk kerestem
 Nem volt ám mindig minden jó, de minden hibát, amit észrevettem, javítottam. Egy automatikus teszt fájl is van a **models** mappában.
+
 ##Felhasználói dokumentáció
+
 ###Futtatáshoz ajánlott hardver- és szoftverkonfiguráció
 Egyedül egy böngésző szükséges a programhoz, ne legyen túl régi. Ha az elmúlt pár évben frissítetted a böngészőt, akkor egész biztosan működni fog. Egy kifejezetten gyenge gépen is jól illene menni a programnak, mivel a lényegi részek szerveren futnak, a kliensoldalon szinte csak a megjelenítés van. Akár egy böngészőt futtatni képes telefon is elbírja.
 
