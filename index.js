@@ -96,7 +96,11 @@ var ormConfig = {
         }
     },
     defaults: {
+<<<<<<< HEAD
         migrate: 'safe'
+=======
+        migrate: 'alter'
+>>>>>>> 7682f42f2c51622cfa874fbc89a7675e0f5a6e8c
     }
 };
 

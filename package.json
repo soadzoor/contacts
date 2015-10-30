@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "preinstall": "npm install -g nodemon",
     "start": "nodemon index.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 7682f42f2c51622cfa874fbc89a7675e0f5a6e8c
   },
   "author": "Peter Varga",
   "license": "ISC",
