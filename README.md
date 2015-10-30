@@ -10,16 +10,21 @@ Alapvetően ezeket a dolgokat várjunk el a programtól:
 * A kontaktok ne vesszenek el (perzisztálva legyenek)
 * Legyen biztonságos (nemregisztrált felhasználók ne okozhassanak kárt)
 Valamint nem volt követelmény, de azért nem árt, hogy keresni is lehet a kontaktok között (név alapján).
+
 ##Tervezés
 Az adatmodell a következőképpen néz ki
+
 ![connections](docs/connections.png)
 
 Mint látható **egy-sok** kapcsolatról van szó, egy felhasználónak több kontaktja lehet.
 A design alapját a **bootswatch.com**-on elérhető ingyenes **css** állományok egyike képzi.
+
 ![design](docs/design.png)
+
 ##Implementáció
 A feladat a **cloud9** nevű online IDE-ben készült el, melynek címe **http://c9.io**. 
 Teljes értékű fejlesztői felületről van szó, sok nyelvet támogat, és webszervert is képes közvetlenül futtatni, nem utolsó sorban teljesen ingyenes (verziója is van). Fejlesztés közben egy ubuntu rendszer támogat minket a háttérből, mellyel közvetlenül tudunk kommunikálni a megnyitott terminálon keresztül.
+
 ![c9](docs/cloud9.png)
 
 A könyvtárstruktúrában lévő mappák funkciói:
@@ -29,6 +34,8 @@ A könyvtárstruktúrában lévő mappák funkciói:
 * public -> jquery
 * views -> a handlebars típusú generáló állományokat, illetve az authentikációhoz szükséges felületeket tartalmazza
 * (root) -> a különböző metódusok definiálását/részletezését tartalmazó állományok helye
+
+
 ##Tesztelés
 Létrehoztam két különbőző felhasználót, és hozzáadtam néhány kontaktot mindkettőhöz. Ezek után mindenfélét csináltam a kontaktokkal:
 * töröltem őket
