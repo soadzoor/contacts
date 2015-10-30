@@ -49,6 +49,7 @@ Nem volt ám mindig minden jó, de minden hibát, amit észrevettem, javítottam
 Egyedül egy böngésző szükséges a programhoz, ne legyen túl régi. Ha az elmúlt pár évben frissítetted a böngészőt, akkor egész biztosan működni fog. Egy kifejezetten gyenge gépen is jól illene menni a programnak, mivel a lényegi részek szerveren futnak, a kliensoldalon szinte csak a megjelenítés van. Akár egy böngészőt futtatni képes telefon is elbírja.
 
 ###A program használata
+Az alkalmazás elérhető a következő webhelyen: **https://soadzoorcontacts.herokuapp.com/**
 Ha még nem regisztráltál, menj rá hogy **login**, vagy **list**, vagy **add**, majd alul a **sign up** gombra. Add meg az adataidat. A jelszót jól jegyezd meg, mert egyelőre nincs emlékeztetőfunkció, így ha egyszer elfelejted, akkor azzal a felhasználóval már soha többé nem tudsz bejelentkezni. 
 A jelszavak titkosítva vannak, így azt én magam sem látom, nem tudok semmi ilyesmiben segíteni. 
 Mondjuk az adatbázishoz hozzáférek, így a kontaktjaidat el tudom küldeni, ha szükség lenne rá, de azokat neked egyesével hozzá kell adni mégegyszer egy új felhasználót használva. Egyszerűbb, ha megjegyzed a jelszót.
