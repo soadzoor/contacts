@@ -35,7 +35,7 @@ router.use('/auth/logout', function (req, res) {
     res.redirect('/auth/login');
 });
 
-// Itt kellene megoldani a végpontokat
+
 router.get('/', function (req, res) {
     res.render('info', {
        title: 'Contacts'
