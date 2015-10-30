@@ -41,6 +41,7 @@ Létrehoztam két különbőző felhasználót, és hozzáadtam néhány kontakt
 * töröltem őket
 * szerkesztettem őket
 * rájuk kerestem
+
 Nem volt ám mindig minden jó, de minden hibát, amit észrevettem, javítottam. Egy automatikus teszt fájl is van a **models** mappában.
 
 ##Felhasználói dokumentáció
