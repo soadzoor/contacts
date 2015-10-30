@@ -9,7 +9,7 @@ Alapvetően ezeket a dolgokat várjunk el a programtól:
 * Viszont a sajátjaikat igen
 * A kontaktok ne vesszenek el (perzisztálva legyenek)
 * Legyen biztonságos (nemregisztrált felhasználók ne okozhassanak kárt)
-Valamint nem volt követelmény, de azért nem árt, hogy keresni is lehet a kontaktok között (név alapján).
+* Valamint nem volt követelmény, de azért nem árt, hogy keresni is lehet a kontaktok között (név alapján).
 
 ##Tervezés
 Az adatmodell a következőképpen néz ki
